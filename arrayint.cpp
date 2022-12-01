@@ -17,3 +17,24 @@ int main() {
     cout<<nums[4]<<endl;
     return 0;
 }
+
+
+
+//User to enter
+#include <iostream>
+using namespace std;
+
+int main() {
+    //array declaration
+    int nums[5];
+    // input array values
+    cout<<"please enter 5 interger values "<<endl;
+    for(int i=0; i<5 ; i++){
+        cin>>nums[i];
+    }
+    cout<<"the array values you entered are; "<<endl;
+    for(int i=0; i<5 ; i++){
+    cout<<nums[i]<<endl;
+    }
+    return 0;
+}
