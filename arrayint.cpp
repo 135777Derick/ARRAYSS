@@ -51,7 +51,8 @@ int main() {
     for(int i=0; i<5 ; i++){
         cin>>nums[i];
     }
-    int sum = 0, product =1,mean;
+    int sum = 0, product =1;
+    double mean;
     for(int i=0; i<5 ; i++){
         sum = sum + nums[i];
         product =product * nums[i];
@@ -62,4 +63,3 @@ int main() {
     cout<<"the mean of the array values you entered is ; "<<mean<<endl;
     
     return 0;
-}
